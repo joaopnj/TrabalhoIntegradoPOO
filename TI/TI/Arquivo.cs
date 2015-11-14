@@ -10,7 +10,6 @@ namespace TI
 		private string linha;
 
 		private int b = 0;
-
 		private static string nomeArquivo = "TI.txt";
 
 		public string _Linha {
