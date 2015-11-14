@@ -1,0 +1,5 @@
+/Users/Jao/Projects/TI/TI/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Jao/Projects/TI/TI/bin/Debug/TI.exe.mdb
+/Users/Jao/Projects/TI/TI/bin/Debug/TI.exe
+/Users/Jao/Projects/TI/TI/obj/x86/Debug/TI.exe
+/Users/Jao/Projects/TI/TI/obj/x86/Debug/TI.exe.mdb
