@@ -94,6 +94,7 @@
     <Compile Include="Pessoa.cs" />
     <Compile Include="Automovel.cs" />
     <Compile Include="Arquivo.cs" />
+    <Compile Include="ExcecaoGenerica.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CadastrarCliente.resx">

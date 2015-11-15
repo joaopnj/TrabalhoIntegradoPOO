@@ -1,10 +1,14 @@
 ﻿<Properties StartupItem="TI/TI.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TI/Proprietario.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TI/Arquivo.cs">
     <Files>
-      <File FileName="TI/Automovel.cs" Line="33" Column="13" />
+      <File FileName="TI/Automovel.cs" Line="1" Column="1" />
       <File FileName="TI/GerenciarEstacionamento.cs" Line="1" Column="1" />
-      <File FileName="TI/Proprietario.cs" Line="19" Column="3" />
+      <File FileName="TI/Proprietario.cs" Line="1" Column="1" />
+      <File FileName="TI/CadastrarVeiculo.cs" Line="1" Column="1" />
+      <File FileName="TI/CadastrarCliente.cs" Line="1" Column="1" />
+      <File FileName="TI/ExcessaoGenerica.cs" Line="21" Column="1" />
+      <File FileName="TI/Arquivo.cs" Line="12" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
