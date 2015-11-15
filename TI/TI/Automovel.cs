@@ -10,15 +10,15 @@ namespace TI
 
 		private string marca;
 
-		private string nome;
+		private string modelo;
 
 		public Automovel ()
 		{
 		}
 
-		public string _Nome {
-			get{return nome; }
-			set{ nome = value; }
+		public string _Modelo {
+			get{return modelo; }
+			set{ modelo = value; }
 		}
 
 		public string _Cor{

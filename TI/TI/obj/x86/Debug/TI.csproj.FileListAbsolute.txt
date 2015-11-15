@@ -1,1 +1,9 @@
 D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.exe
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\bin\Debug\TI.exe
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\bin\Debug\TI.pdb
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.csprojResolveAssemblyReference.cache
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.CadastrarCliente.resources
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.Menu.resources
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.Properties.Resources.resources
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.csproj.GenerateResource.Cache
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.pdb
