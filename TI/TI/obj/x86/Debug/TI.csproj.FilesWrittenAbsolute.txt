@@ -3,3 +3,14 @@
 /Users/Jao/Projects/TI/TI/bin/Debug/TI.exe
 /Users/Jao/Projects/TI/TI/obj/x86/Debug/TI.exe
 /Users/Jao/Projects/TI/TI/obj/x86/Debug/TI.exe.mdb
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/TI.CadastrarCliente.resources
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/TI.CadastrarVeiculo.resources
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/TI.GerarHistorico.resources
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/TI.GerenciarEstacionamento.resources
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/TI.Menu.resources
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/TI.Properties.Resources.resources
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/TI.exe
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/obj/x86/Debug/TI.exe.mdb
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/bin/Debug/TI.exe.mdb
+/Users/Jao/TrabalhoIntegradoPOO/TI/TI/bin/Debug/TI.exe

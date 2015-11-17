@@ -5,13 +5,13 @@ namespace TI
 {
 	public class Proprietario : Pessoa
 	{
-		private List<Veiculo> veiculos;
+		private List<Automovel> veiculos;
 
 		public Proprietario ()
 		{
 		}
 
-		public List<Veiculo> _Automoveis {
+		public List<Automovel> _Automoveis {
 			get{ return veiculos; }
 			set{ veiculos = value; }
 		

@@ -8,7 +8,9 @@ namespace TI
 
 		private string cor;
 
-		private string marca;
+		private string nome;
+
+		private string tipo;
 
 		private string modelo;
 
@@ -26,14 +28,19 @@ namespace TI
 			set{ cor = value; }
 		}
 
-		public string _Marca{
-			get{return marca; }
-			set{ marca = value; }
+		public string _Nome{
+			get{return nome; }
+			set{ nome = value; }
 		}
 
 		public string _Placa{
 			get{return placa; }
 			set{ placa = value; }
+		}
+
+		public string _Tipo {
+			get{ return tipo; }
+			set{ tipo = value; }
 		}
 	}
 }
