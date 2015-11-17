@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TI
 {
-    public partial class Menu : Form
+    public partial class HomeScreen : Form
     {
-        public Menu()
+        public HomeScreen()
         {
             InitializeComponent();
         }

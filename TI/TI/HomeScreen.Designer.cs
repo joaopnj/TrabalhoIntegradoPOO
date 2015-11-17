@@ -1,6 +1,6 @@
 ﻿namespace TI
 {
-    partial class Menu
+    partial class HomeScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeScreen));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnGerenciarEstacionamento = new System.Windows.Forms.PictureBox();
             this.btnCadastrarCliente = new System.Windows.Forms.PictureBox();
