@@ -230,6 +230,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "GerenciarEstacionamento";
             this.Text = "Gerenciar Estacionamento";
+            this.Load += new System.EventHandler(this.GerenciarEstacionamento_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

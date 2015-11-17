@@ -30,14 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeScreen));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnGerenciarEstacionamento = new System.Windows.Forms.PictureBox();
-            this.btnCadastrarCliente = new System.Windows.Forms.PictureBox();
-            this.btnCadastrarCarro = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnGerarRelatorio = new System.Windows.Forms.PictureBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -47,12 +39,20 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnGerarRelatorio = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnCadastrarCarro = new System.Windows.Forms.PictureBox();
+            this.btnCadastrarCliente = new System.Windows.Forms.PictureBox();
+            this.btnGerenciarEstacionamento = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnGerenciarEstacionamento)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCadastrarCliente)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCadastrarCarro)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnGerarRelatorio)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGerarRelatorio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCadastrarCarro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCadastrarCliente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGerenciarEstacionamento)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -72,82 +72,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(551, 358);
             this.panel1.TabIndex = 0;
-            // 
-            // btnGerenciarEstacionamento
-            // 
-            this.btnGerenciarEstacionamento.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciarEstacionamento.Image")));
-            this.btnGerenciarEstacionamento.Location = new System.Drawing.Point(12, 12);
-            this.btnGerenciarEstacionamento.Name = "btnGerenciarEstacionamento";
-            this.btnGerenciarEstacionamento.Size = new System.Drawing.Size(128, 128);
-            this.btnGerenciarEstacionamento.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnGerenciarEstacionamento.TabIndex = 0;
-            this.btnGerenciarEstacionamento.TabStop = false;
-            // 
-            // btnCadastrarCliente
-            // 
-            this.btnCadastrarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrarCliente.Image")));
-            this.btnCadastrarCliente.Location = new System.Drawing.Point(146, 12);
-            this.btnCadastrarCliente.Name = "btnCadastrarCliente";
-            this.btnCadastrarCliente.Size = new System.Drawing.Size(128, 128);
-            this.btnCadastrarCliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnCadastrarCliente.TabIndex = 1;
-            this.btnCadastrarCliente.TabStop = false;
-            // 
-            // btnCadastrarCarro
-            // 
-            this.btnCadastrarCarro.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrarCarro.Image")));
-            this.btnCadastrarCarro.Location = new System.Drawing.Point(280, 12);
-            this.btnCadastrarCarro.Name = "btnCadastrarCarro";
-            this.btnCadastrarCarro.Size = new System.Drawing.Size(128, 128);
-            this.btnCadastrarCarro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnCadastrarCarro.TabIndex = 4;
-            this.btnCadastrarCarro.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(147, 143);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 20);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Cadastrar cliente";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(424, 143);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 20);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Gerar relatório";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(286, 143);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 20);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Cadastrar carro";
-            // 
-            // btnGerarRelatorio
-            // 
-            this.btnGerarRelatorio.Image = ((System.Drawing.Image)(resources.GetObject("btnGerarRelatorio.Image")));
-            this.btnGerarRelatorio.Location = new System.Drawing.Point(414, 12);
-            this.btnGerarRelatorio.Name = "btnGerarRelatorio";
-            this.btnGerarRelatorio.Size = new System.Drawing.Size(128, 128);
-            this.btnGerarRelatorio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnGerarRelatorio.TabIndex = 10;
-            this.btnGerarRelatorio.TabStop = false;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(19, 143);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(123, 40);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "    Gerenciar\r\nestacionamento";
             // 
             // groupBox1
             // 
@@ -180,9 +104,9 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(120, 70);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(73, 20);
+            this.label10.Size = new System.Drawing.Size(63, 20);
             this.label10.TabIndex = 0;
-            this.label10.Text = "Matricula";
+            this.label10.Text = "424639";
             // 
             // label7
             // 
@@ -216,9 +140,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(120, 30);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 20);
+            this.label8.Size = new System.Drawing.Size(63, 20);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Matricula";
+            this.label8.Text = "515088";
             // 
             // label4
             // 
@@ -238,24 +162,108 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Diogo Fellippe";
             // 
-            // Menu
+            // btnGerarRelatorio
+            // 
+            this.btnGerarRelatorio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGerarRelatorio.Image = ((System.Drawing.Image)(resources.GetObject("btnGerarRelatorio.Image")));
+            this.btnGerarRelatorio.Location = new System.Drawing.Point(414, 12);
+            this.btnGerarRelatorio.Name = "btnGerarRelatorio";
+            this.btnGerarRelatorio.Size = new System.Drawing.Size(128, 128);
+            this.btnGerarRelatorio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnGerarRelatorio.TabIndex = 10;
+            this.btnGerarRelatorio.TabStop = false;
+            this.btnGerarRelatorio.Click += new System.EventHandler(this.btnGerarRelatorio_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(286, 143);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(119, 20);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Cadastrar carro";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(19, 143);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(123, 40);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "    Gerenciar\r\nestacionamento";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(424, 143);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(111, 20);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Gerar relatório";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(147, 143);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(129, 20);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Cadastrar cliente";
+            // 
+            // btnCadastrarCarro
+            // 
+            this.btnCadastrarCarro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadastrarCarro.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrarCarro.Image")));
+            this.btnCadastrarCarro.Location = new System.Drawing.Point(280, 12);
+            this.btnCadastrarCarro.Name = "btnCadastrarCarro";
+            this.btnCadastrarCarro.Size = new System.Drawing.Size(128, 128);
+            this.btnCadastrarCarro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnCadastrarCarro.TabIndex = 4;
+            this.btnCadastrarCarro.TabStop = false;
+            this.btnCadastrarCarro.Click += new System.EventHandler(this.btnCadastrarCarro_Click);
+            // 
+            // btnCadastrarCliente
+            // 
+            this.btnCadastrarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadastrarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrarCliente.Image")));
+            this.btnCadastrarCliente.Location = new System.Drawing.Point(146, 12);
+            this.btnCadastrarCliente.Name = "btnCadastrarCliente";
+            this.btnCadastrarCliente.Size = new System.Drawing.Size(128, 128);
+            this.btnCadastrarCliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnCadastrarCliente.TabIndex = 1;
+            this.btnCadastrarCliente.TabStop = false;
+            this.btnCadastrarCliente.Click += new System.EventHandler(this.btnCadastrarCliente_Click);
+            // 
+            // btnGerenciarEstacionamento
+            // 
+            this.btnGerenciarEstacionamento.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGerenciarEstacionamento.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciarEstacionamento.Image")));
+            this.btnGerenciarEstacionamento.Location = new System.Drawing.Point(12, 12);
+            this.btnGerenciarEstacionamento.Name = "btnGerenciarEstacionamento";
+            this.btnGerenciarEstacionamento.Size = new System.Drawing.Size(128, 128);
+            this.btnGerenciarEstacionamento.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnGerenciarEstacionamento.TabIndex = 0;
+            this.btnGerenciarEstacionamento.TabStop = false;
+            this.btnGerenciarEstacionamento.Click += new System.EventHandler(this.btnGerenciarEstacionamento_Click);
+            // 
+            // HomeScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 358);
             this.Controls.Add(this.panel1);
-            this.Name = "Menu";
+            this.Name = "HomeScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Menu_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnGerenciarEstacionamento)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCadastrarCliente)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCadastrarCarro)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnGerarRelatorio)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGerarRelatorio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCadastrarCarro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCadastrarCliente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGerenciarEstacionamento)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -36,5 +36,29 @@ namespace TI
         {
 
         }
+
+        private void btnGerenciarEstacionamento_Click(object sender, EventArgs e)
+        {
+            GerenciarEstacionamento mngPark = new GerenciarEstacionamento();
+            mngPark.Show();            
+        }
+
+        private void btnCadastrarCliente_Click(object sender, EventArgs e)
+        {
+            CadastrarCliente cliente = new CadastrarCliente();
+            cliente.Show();
+        }
+
+        private void btnCadastrarCarro_Click(object sender, EventArgs e)
+        {
+            CadastrarVeiculo cadVeic = new CadastrarVeiculo();
+            cadVeic.Show();
+        }
+
+        private void btnGerarRelatorio_Click(object sender, EventArgs e)
+        {
+            GerarHistorico historico = new GerarHistorico();
+            historico.Show();
+        }
     }
 }

@@ -7,6 +7,13 @@ namespace TI
 	{
 		Estacionamento estacionamento = new Estacionamento ();
 
+        private string placa;
+
+        private string tipoCarro;
+
+        private string 
+
+
 		private string linha;
 
 		private int b = 0;
@@ -17,8 +24,12 @@ namespace TI
 			set{ linha = value; }
 		}
 
-		private string corpoDoArquivo(){
-			_Linha = estacionamento._Proprietario._Nome +" ; "+ estacionamento._Proprietario._Automoveis + " ; "
+		public string corpoDoArquivo(){
+            foreach (Automovel item in estacionamento._Proprietario._Automoveis)
+            {
+                item._Placa =
+            }
+			_Linha = estacionamento._Proprietario._Automoveis.ForEach() +" ; "+ estacionamento._Proprietario._Automoveis + " ; "
 				+ estacionamento._Proprietario._CPF + " ; " + estacionamento._TempoChegada + " ; " + estacionamento._TempoEstacionado + " ; " + estacionamento._NumVaga+" ; "+ estacionamento.valorPagar().ToString();
 			return _Linha;
 		}
@@ -38,11 +49,11 @@ namespace TI
 
 		// Leitura de arquivo.
 
-		public void leituraArquivo ()
+		public void leituraArquivo (string caminho)
 		{
-			if (File.Exists (nomeArquivo)) {
+			if (File.Exists (caminho)) {
 
-				Stream arquivos = File.Open (nomeArquivo, FileMode.Open);
+				Stream arquivos = File.Open (caminho, FileMode.Open);
 				b = arquivos.ReadByte ();
 				StreamReader leitor = new StreamReader (arquivos);
 				string linhaLeitura = leitor.ReadLine ();

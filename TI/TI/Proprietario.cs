@@ -7,18 +7,25 @@ namespace TI
 	{
 		private List<Automovel> veiculos;
 
+        private string tipo;
+
+        public string Tipo
+        {
+            get { return tipo; }
+            set { tipo = value; }
+        }
+
 		public Proprietario ()
 		{
 		}
 
 		public List<Automovel> _Automoveis {
 			get{ return veiculos; }
-			set{ veiculos = value; }
-		
+			set{ veiculos = value; }		
 		}
 
 		public void cadastrarAutomovel(){
-			// Método intera adiciona um ou mais veiculos ao proprietário.
+           
 		}
 	}
 }
