@@ -58,11 +58,11 @@
     <Compile Include="CadastrarCliente.Designer.cs">
       <DependentUpon>CadastrarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastrarVeiculo.cs">
+    <Compile Include="PesquisarVeiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastrarVeiculo.Designer.cs">
-      <DependentUpon>CadastrarVeiculo.cs</DependentUpon>
+    <Compile Include="PesquisarVeiculo.Designer.cs">
+      <DependentUpon>PesquisarVeiculo.cs</DependentUpon>
     </Compile>
     <Compile Include="GerarHistorico.cs">
       <SubType>Form</SubType>
@@ -82,11 +82,11 @@
     <Compile Include="HomeScreen.Designer.cs">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pesquisar.cs">
+    <Compile Include="CadastrarVeiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pesquisar.Designer.cs">
-      <DependentUpon>Pesquisar.cs</DependentUpon>
+    <Compile Include="CadastrarVeiculo.Designer.cs">
+      <DependentUpon>CadastrarVeiculo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -106,8 +106,8 @@
     <EmbeddedResource Include="CadastrarCliente.resx">
       <DependentUpon>CadastrarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastrarVeiculo.resx">
-      <DependentUpon>CadastrarVeiculo.cs</DependentUpon>
+    <EmbeddedResource Include="PesquisarVeiculo.resx">
+      <DependentUpon>PesquisarVeiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GerarHistorico.resx">
       <DependentUpon>GerarHistorico.cs</DependentUpon>
@@ -118,8 +118,8 @@
     <EmbeddedResource Include="HomeScreen.resx">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pesquisar.resx">
-      <DependentUpon>Pesquisar.cs</DependentUpon>
+    <EmbeddedResource Include="CadastrarVeiculo.resx">
+      <DependentUpon>CadastrarVeiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -12,16 +12,24 @@ namespace TI
 {
     public partial class CadastrarCliente : Form
     {
-        public CadastrarCliente()
-        {
-            InitializeComponent();
-        }
-
         private static string CAMINHO = "ARQUIVO.txt";
 
         private Proprietario prop = new Proprietario();
 
         private Arquivo arq;
+
+        private List<Automovel> listaAuto;
+
+        public CadastrarCliente()
+        {
+            InitializeComponent();
+        }
+
+        public List<Automovel> _ListaAuto
+        {
+            get { return listaAuto; }
+            set { listaAuto = value; }
+        }
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -41,7 +49,7 @@ namespace TI
             prop.Tipo = cbTipoCliente.SelectedText;
 
             arq.leituraArquivo(CAMINHO);
-            arq.gravarArquivo()
+            arq.gravarArquivo();
 
         }
     }

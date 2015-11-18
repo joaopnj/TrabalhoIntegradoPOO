@@ -9,11 +9,21 @@ namespace TI
 
         private string tipo;
 
+        private int vezesEstacionado;
+
+        public int VezesEstacionado
+        {
+            get { return vezesEstacionado; }
+            set { vezesEstacionado = value; }
+        }
+
         public string Tipo
         {
             get { return tipo; }
             set { tipo = value; }
         }
+
+
 
 		public Proprietario ()
 		{

@@ -12,22 +12,37 @@ namespace TI
 {
     public partial class CadastrarVeiculo : Form
     {
+        private List<Automovel> listaAuto;
+
         public CadastrarVeiculo()
         {
             InitializeComponent();
         }
+       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            foreach (Automovel item in listaAuto)
+            {
+                item._Modelo =  txtModelo.Text ;
+                item._Nome = txtNome.Text;
+                item._Cor = txtCor.Text;
+                item._Tipo = cbTipoVeiculo.SelectedItem.ToString();
+                item._Placa = txtPlaca.Text;
+            }
+            CadastrarCliente c = new CadastrarCliente();
+            c._ListaAuto = listaAuto;
+            c.Show();
+            this.Close();
+        }
 
-        
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void cbTipoVeiculo_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
-        
-        private void btnSalvar_Click(object sender, EventArgs e)
+
+        private void label1_Click(object sender, EventArgs e)
         {
-            Pesquisar pes = new Pesquisar();
-            pes.Show();
-            this.Close();
+
         }
     }
 }

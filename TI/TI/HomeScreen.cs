@@ -51,7 +51,7 @@ namespace TI
 
         private void btnCadastrarCarro_Click(object sender, EventArgs e)
         {
-            CadastrarVeiculo cadVeic = new CadastrarVeiculo();
+            PesquisarVeiculo cadVeic = new PesquisarVeiculo();
             cadVeic.Show();
         }
 

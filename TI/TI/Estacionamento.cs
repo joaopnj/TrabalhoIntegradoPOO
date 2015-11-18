@@ -4,6 +4,14 @@ namespace TI
 {
 	public class Estacionamento
 	{
+        private int id;
+
+        public int _Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+
 		private int vagas;
 
 		private int numeroVaga;
@@ -15,6 +23,14 @@ namespace TI
 		private double tempoEstacionado;
 
 		private DateTime tempoChegada;
+
+        private DateTime tempoSaida;
+
+        public DateTime TempoSaida
+        {
+            get { return tempoSaida; }
+            set { tempoSaida = value; }
+        }
 
 		public Estacionamento ()
 		{

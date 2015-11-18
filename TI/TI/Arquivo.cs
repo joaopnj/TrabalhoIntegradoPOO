@@ -11,10 +11,21 @@ namespace TI
 
         private string tipoCarro;
 
-        private string 
+        private string vezesEstacionado;
 
+        private string dataEntrada;
 
-		private string linha;
+        private string horaEntrada;
+
+        private string dataSaida;
+
+        private string horaSaida;
+
+        private string tipoCliente;
+        
+        private string linha;
+
+        private string id;
 
 		private int b = 0;
 		private static string nomeArquivo = "TI.txt";
@@ -27,10 +38,25 @@ namespace TI
 		public string corpoDoArquivo(){
             foreach (Automovel item in estacionamento._Proprietario._Automoveis)
             {
-                item._Placa =
+                placa = item._Placa;
+                tipoCarro = item._Tipo;
             }
-			_Linha = estacionamento._Proprietario._Automoveis.ForEach() +" ; "+ estacionamento._Proprietario._Automoveis + " ; "
-				+ estacionamento._Proprietario._CPF + " ; " + estacionamento._TempoChegada + " ; " + estacionamento._TempoEstacionado + " ; " + estacionamento._NumVaga+" ; "+ estacionamento.valorPagar().ToString();
+
+            vezesEstacionado = estacionamento._Proprietario.VezesEstacionado.ToString();
+
+            dataEntrada = estacionamento._TempoChegada.ToString().Substring(0, 9);
+
+            horaEntrada = estacionamento._TempoChegada.ToString().Substring(10, 18);
+
+            dataSaida = estacionamento.TempoSaida.ToString().Substring(0, 9);
+
+            horaSaida = estacionamento.TempoSaida.ToString().Substring(10, 18);
+
+            tipoCliente = estacionamento._Proprietario.Tipo;
+
+            id = estacionamento._Id.ToString();
+
+			 _Linha = placa+";"+ tipoCarro+ ";"+ vezesEstacionado+ ";" + dataEntrada+ ";" + horaEntrada + ";" + dataSaida+";"+horaSaida+";"+tipoCliente+";"+id+";";
 			return _Linha;
 		}
 
