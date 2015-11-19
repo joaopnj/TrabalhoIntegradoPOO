@@ -10,4 +10,4 @@ D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.Cadastra
 D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.GerarHistorico.resources
 D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.GerenciarEstacionamento.resources
 D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.HomeScreen.resources
-D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.Pesquisar.resources
+D:\AMBIENTE\PROJETO\EM CONSTRUÇÃO\trabalho\poo\TI\TI\obj\x86\Debug\TI.PesquisarVeiculo.resources

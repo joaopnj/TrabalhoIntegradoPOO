@@ -36,14 +36,11 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.listaEstacionados = new System.Windows.Forms.ListBox();
             this.btnSelecionarEstacionamento = new System.Windows.Forms.Button();
-            this.btnSelecionarPlaca = new System.Windows.Forms.Button();
-            this.txtClient = new System.Windows.Forms.TextBox();
             this.txtPlaca = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.vagasPreenchidas = new System.Windows.Forms.Label();
             this.numeroVagas = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -57,14 +54,11 @@
             this.panel1.Controls.Add(this.btnEstacionar);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.btnSelecionarEstacionamento);
-            this.panel1.Controls.Add(this.btnSelecionarPlaca);
-            this.panel1.Controls.Add(this.txtClient);
             this.panel1.Controls.Add(this.txtPlaca);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.vagasPreenchidas);
             this.panel1.Controls.Add(this.numeroVagas);
-            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -72,10 +66,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(608, 659);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // cbEstacionamentoID
             // 
             this.cbEstacionamentoID.FormattingEnabled = true;
+            this.cbEstacionamentoID.Items.AddRange(new object[] {
+            "Barro Preto",
+            "Centro",
+            "Venda Nova"});
             this.cbEstacionamentoID.Location = new System.Drawing.Point(38, 46);
             this.cbEstacionamentoID.Name = "cbEstacionamentoID";
             this.cbEstacionamentoID.Size = new System.Drawing.Size(186, 28);
@@ -92,7 +91,7 @@
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(399, 184);
+            this.btnRemover.Location = new System.Drawing.Point(244, 131);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(200, 29);
             this.btnRemover.TabIndex = 11;
@@ -101,19 +100,20 @@
             // 
             // btnEstacionar
             // 
-            this.btnEstacionar.Location = new System.Drawing.Point(399, 152);
+            this.btnEstacionar.Location = new System.Drawing.Point(38, 132);
             this.btnEstacionar.Name = "btnEstacionar";
             this.btnEstacionar.Size = new System.Drawing.Size(200, 26);
             this.btnEstacionar.TabIndex = 10;
             this.btnEstacionar.Text = "Entrada veículo";
             this.btnEstacionar.UseVisualStyleBackColor = true;
+            this.btnEstacionar.Click += new System.EventHandler(this.btnEstacionar_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.listaEstacionados);
-            this.groupBox1.Location = new System.Drawing.Point(38, 211);
+            this.groupBox1.Location = new System.Drawing.Point(33, 166);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(561, 436);
+            this.groupBox1.Size = new System.Drawing.Size(561, 481);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Veículos estacionados";
@@ -126,7 +126,7 @@
             "placa, cliente, hora chegada, tipo veiculo, tipo cliente"});
             this.listaEstacionados.Location = new System.Drawing.Point(6, 34);
             this.listaEstacionados.Name = "listaEstacionados";
-            this.listaEstacionados.Size = new System.Drawing.Size(549, 384);
+            this.listaEstacionados.Size = new System.Drawing.Size(549, 444);
             this.listaEstacionados.TabIndex = 0;
             // 
             // btnSelecionarEstacionamento
@@ -138,25 +138,6 @@
             this.btnSelecionarEstacionamento.Text = "Selecionar";
             this.btnSelecionarEstacionamento.UseVisualStyleBackColor = true;
             this.btnSelecionarEstacionamento.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnSelecionarPlaca
-            // 
-            this.btnSelecionarPlaca.Location = new System.Drawing.Point(123, 100);
-            this.btnSelecionarPlaca.Name = "btnSelecionarPlaca";
-            this.btnSelecionarPlaca.Size = new System.Drawing.Size(101, 26);
-            this.btnSelecionarPlaca.TabIndex = 8;
-            this.btnSelecionarPlaca.Text = "Selecionar";
-            this.btnSelecionarPlaca.UseVisualStyleBackColor = true;
-            this.btnSelecionarPlaca.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // txtClient
-            // 
-            this.txtClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtClient.Enabled = false;
-            this.txtClient.Location = new System.Drawing.Point(38, 152);
-            this.txtClient.Name = "txtClient";
-            this.txtClient.Size = new System.Drawing.Size(355, 26);
-            this.txtClient.TabIndex = 7;
             // 
             // txtPlaca
             // 
@@ -204,15 +185,6 @@
             this.numeroVagas.TabIndex = 2;
             this.numeroVagas.Text = "0";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 129);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Cliente";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -247,9 +219,6 @@
         private System.Windows.Forms.Label vagasPreenchidas;
         private System.Windows.Forms.Label numeroVagas;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnSelecionarPlaca;
-        private System.Windows.Forms.TextBox txtClient;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cbEstacionamentoID;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnRemover;

@@ -14,8 +14,6 @@ namespace TI
 
 		private int vagas;
 
-		private int numeroVaga;
-
 		private int valorHora;
 
 		private Proprietario proprietario;
@@ -39,11 +37,6 @@ namespace TI
 		public int _Vagas {
 			get{ return vagas; }
 			set{ vagas = value; }
-		}
-
-		public int _NumVaga {
-			get{ return numeroVaga; }
-			set{ numeroVaga = value; }
 		}
 
 		public int _ValorHora {
